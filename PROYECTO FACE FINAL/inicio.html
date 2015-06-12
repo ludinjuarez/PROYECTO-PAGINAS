@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="estiloInicio.css">
+    <script type="text/javascript" src="js/jquery.js"></script> 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    
+    <title>Inicio SIT</title>
+</head>
+<body id="body1">
+
+<nav id="barratop" class="navbar navbar-default navbar-inverse"></nav>
+
+
+    
+    <form class="form-signin" role="form">
+            <div class="container" align="center" > 
+                <div class="col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4 "  style="margin-top: 80px;">
+                    <h3 class="form-signin-heading" align="center">Bienvenido a Servicios IT</h3>          
+                    <p><input class="form-control" type="email" autofocus required placeholder="Correo Electronico"></input></p>
+                    <p><input class="form-control" type="password" required placeholder="Contraseña"></input></p>
+                </div>
+            </div>
+           <div class="container" align="center">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4 "> 
+                    <label class="checkbox" align="center">
+                        <input type="checkbox" value="recordar"></input>
+                        Recordar Contraseña
+                     </label>
+                </div>
+            </div>
+            <div class="container">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-sm-offset-3 col-md-offset-4 col-lg-offset-4 ">
+                    <p><button href="servicios.html" class="btn btn-md btn-danger btn-block" type="submit">Iniciar Sesion</button></p>
+                </div>
+            </div>
+    </form> 
+    <div class="navbar navbar-fixed-bottom">
+         
+        <div class="col-sm-2 col-md-2 col-lg-2 col-sm-offset-9 col-md-offset-9 col-lg-offset-9">
+            <button data-target="#registro" data-toggle="modal" class="btn btn-sm btn-info btn-block">Regístrate</button>
+        </div>
+    </div>
+
+     <div id="registro" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="margin-top: 80px;">
+        <div class="modal-dialog">
+             <div class="modal=content">
+                <div id="registro1" class="col-sm-6 col-md-6 col-lg-6 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <center>Registro nuevo usuario</center>
+                    </div>
+                     
+                     <div class="modal-body">
+                        <center>
+                        <form class="form-register" role="form">
+                            <p><input class="form-control" type="text" autofocus required placeholder="Nombre"></input></p>
+                            <p><input class="form-control" type="text" required placeholder="Direccion"></input></p>
+                            <p><input class="form-control" type="email" autofocus required placeholder="Correo Electronico"></input></p>
+                            <p id="terminoss"><input type="checkbox" name="aceptarTerminos" id="aceptarTerminos" value="ok"> Acepto los terminos</label></p>
+                            <button class="btn btn-default">Continuar</button>
+                        </form>
+
+
+                        
+
+                        </center>
+                    </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-success btn-sm" data-dismiss="modal">Cancelar</button>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>  
+
+ </body>
+ </html>
